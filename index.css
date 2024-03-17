@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-color: #757263;
     color: #FFFFFF;
+    overflow:visible;
 }
 
 header {
@@ -16,7 +17,8 @@ header {
     margin: 0;
 }
 
-ul {
+/* navbar */
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,7 +26,7 @@ ul {
     float: right;
 }
 
-li {
+.navlist {
     display: inline-block;
 }
 
@@ -60,11 +62,97 @@ li a:hover {
     display: flex;
     align-items: center;
 }
+
 .heading {
     margin: 5.2083vw 7.813vw 5.2083vw;
 }
+
 .paragraph {
     width: 55vw;
     font-size: larger;
     margin-right: 5.2083vw;
+}
+
+/* case study */
+.cs_heading{
+    text-align: center;
+} 
+
+.cs_div{
+    width: 50%;
+    margin: auto;
+}
+
+.dorms_pic{
+    width: 70vw;
+    margin: auto;
+    display: block;
+}
+
+.ideation_list{
+    list-style-type: disc;
+}
+
+.ideation_desc{
+    list-style-type: none;
+    padding: 0;
+}
+
+.ideation_desc::before{
+    content: "➔";
+}
+
+
+/* SYSTEM AND SDG NUMBER BRAINSTORMING */
+.brainstorming_whole{
+    display: block;
+    width: 70vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#zoom_img[type=checkbox]{
+    display: none;
+}
+
+#zoom_img[type=checkbox]:checked ~ label > .brainstorming_whole {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* CHOSEN IDEAS */
+.brainstorming_chosen{
+    display: block;
+    width: 50vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#chosen_img[type=checkbox]{
+    display: none;
+}
+
+#chosen_img[type=checkbox]:checked ~ label > .brainstorming_chosen {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* 1ST SDG CHOSEN */
+.sdg11{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#sdg11[type=checkbox]{
+    display: none;
+}
+
+#sdg11[type=checkbox]:checked ~ label > .sdg11 {
+    transform: scale(1.75);
+    cursor: zoom-out;
 }
