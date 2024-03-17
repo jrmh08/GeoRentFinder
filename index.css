@@ -3,6 +3,12 @@ body{
     background-color: #757263;
     color: #FFFFFF;
     overflow:visible;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
 }
 
 header {
@@ -30,7 +36,7 @@ header {
     display: inline-block;
 }
 
-li a {
+.navlist a {
     display: block;
     color: white;
     text-align: center;
@@ -38,7 +44,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.navlist a:hover {
     background-color: #757263;
 }
 
@@ -79,7 +85,7 @@ li a:hover {
 } 
 
 .cs_div{
-    width: 50%;
+    width: 65%;
     margin: auto;
 }
 
@@ -99,9 +105,27 @@ li a:hover {
 }
 
 .ideation_desc::before{
-    content: "➔";
+    content: "->";
 }
 
+.bullet_hollow{
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+.list_dash{
+    list-style-type: none;
+}
+
+.list_dash::before{
+    content: "-";
+    margin-left: 40px;
+}
+
+.list_none{
+    list-style-type: none;
+    margin-left: 30px;
+}
 
 /* SYSTEM AND SDG NUMBER BRAINSTORMING */
 .brainstorming_whole{
@@ -153,6 +177,259 @@ li a:hover {
 }
 
 #sdg11[type=checkbox]:checked ~ label > .sdg11 {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* TARGET DEMOGRAPHICS */
+.tdemo{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#tdemo[type=checkbox]{
+    display: none;
+}
+
+#tdemo[type=checkbox]:checked ~ label > .tdemo {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* USER: STUDENT */
+.pstudent{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#pstudent[type=checkbox]{
+    display: none;
+}
+
+#pstudent[type=checkbox]:checked ~ label > .pstudent {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* USER: EMPLOYEE */
+.pemployee{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#pemployee[type=checkbox]{
+    display: none;
+}
+
+#pemployee[type=checkbox]:checked ~ label > .pemployee {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* USER: EMPLOYEE WITH FAMILY */
+.pemployeewfam{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#pemployeewfam[type=checkbox]{
+    display: none;
+}
+
+#pemployeewfam[type=checkbox]:checked ~ label > .pemployeewfam {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* USER: HOMEOWNER*/
+.phomeowner{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#phomeowner[type=checkbox]{
+    display: none;
+}
+
+#phomeowner[type=checkbox]:checked ~ label > .phomeowner {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* USER: ADMIN*/
+.padmin{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#padmin[type=checkbox]{
+    display: none;
+}
+
+#padmin[type=checkbox]:checked ~ label > .padmin {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+
+/* EMPATHY: STUDENT */
+.estudent{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#estudent[type=checkbox]{
+    display: none;
+}
+
+#estudent[type=checkbox]:checked ~ label > .estudent {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* EMPATHY: EMPLOYEE */
+.eemployee{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#eemployee[type=checkbox]{
+    display: none;
+}
+
+#eemployee[type=checkbox]:checked ~ label > .eemployee {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* EMPATHY: EMPLOYEE WITH FAMILY */
+.eewfam{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#eewfam[type=checkbox]{
+    display: none;
+}
+
+#eewfam[type=checkbox]:checked ~ label > .eewfam {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* EMPATHY: HOMEOWNER*/
+.eowner{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#eowner[type=checkbox]{
+    display: none;
+}
+
+#eowner[type=checkbox]:checked ~ label > .eowner {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* EMPATHY: ADMIN*/
+.eadmin{
+    display: block;
+    width: 40vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#eadmin[type=checkbox]{
+    display: none;
+}
+
+#eadmin[type=checkbox]:checked ~ label > .eadmin {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* SCAMPER: WHOLE*/
+.scamperwhole{
+    display: block;
+    width: 80vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#scamperwhole[type=checkbox]{
+    display: none;
+}
+
+#scamperwhole[type=checkbox]:checked ~ label > .scamperwhole {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* FISHBONE: WHOLE*/
+.fishbonewhole{
+    display: block;
+    width: 80vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#fishbonewhole[type=checkbox]{
+    display: none;
+}
+
+#fishbonewhole[type=checkbox]:checked ~ label > .fishbonewhole {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+/* FISHBONE: WHOLE*/
+.wireframeuser{
+    display: block;
+    width: 80vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#wireframeuser[type=checkbox]{
+    display: none;
+}
+
+#wireframeuser[type=checkbox]:checked ~ label > .wireframeuser {
     transform: scale(1.75);
     cursor: zoom-out;
 }
