@@ -89,6 +89,13 @@ header {
     margin: auto;
 }
 
+.cs_narrative{
+    width: 65%;
+    margin: auto;
+    background-color: #555349;
+    padding: 54px 70px 54px 0px;
+}
+
 .dorms_pic{
     width: 70vw;
     margin: auto;
@@ -430,6 +437,23 @@ header {
 }
 
 #wireframeuser[type=checkbox]:checked ~ label > .wireframeuser {
+    transform: scale(1.75);
+    cursor: zoom-out;
+}
+
+.wireframeowner{
+    display: block;
+    width: 80vw;
+    cursor: zoom-in;
+    transition: 1s ease;
+    margin: auto;
+}
+
+#wireframeowner[type=checkbox]{
+    display: none;
+}
+
+#wireframeowner[type=checkbox]:checked ~ label > .wireframeowner {
     transform: scale(1.75);
     cursor: zoom-out;
 }
