@@ -85,12 +85,12 @@ header {
 } 
 
 .cs_div{
-    width: 65%;
+    width: 90%;
     margin: auto;
 }
 
 .cs_narrative{
-    width: 65%;
+    width: 80%;
     margin: auto;
     background-color: #555349;
     padding: 54px 70px 54px 0px;
@@ -456,4 +456,24 @@ header {
 #wireframeowner[type=checkbox]:checked ~ label > .wireframeowner {
     transform: scale(1.75);
     cursor: zoom-out;
+}
+
+.list_pics{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+.pic-height{
+    height: 400px;
+    margin: auto;
+}
+
+.link_hover{
+    color: #fffce7;
+    padding: 14px 16px;
+}
+
+.link_hover:hover{
+    background-color: #38362f;
 }
