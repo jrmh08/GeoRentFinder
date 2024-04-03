@@ -300,7 +300,7 @@ header {
 /* EMPATHY: STUDENT */
 .estudent{
     display: block;
-    width: 40vw;
+    width: 80vw;
     cursor: zoom-in;
     transition: 1s ease;
     margin: auto;
@@ -318,7 +318,7 @@ header {
 /* EMPATHY: EMPLOYEE */
 .eemployee{
     display: block;
-    width: 40vw;
+    width: 80vw;
     cursor: zoom-in;
     transition: 1s ease;
     margin: auto;
@@ -336,7 +336,7 @@ header {
 /* EMPATHY: EMPLOYEE WITH FAMILY */
 .eewfam{
     display: block;
-    width: 40vw;
+    width: 80vw;
     cursor: zoom-in;
     transition: 1s ease;
     margin: auto;
@@ -354,7 +354,7 @@ header {
 /* EMPATHY: HOMEOWNER*/
 .eowner{
     display: block;
-    width: 40vw;
+    width: 80vw;
     cursor: zoom-in;
     transition: 1s ease;
     margin: auto;
@@ -372,7 +372,7 @@ header {
 /* EMPATHY: ADMIN*/
 .eadmin{
     display: block;
-    width: 40vw;
+    width: 80vw;
     cursor: zoom-in;
     transition: 1s ease;
     margin: auto;
