@@ -30,6 +30,7 @@ header {
     padding: 0;
     overflow: hidden;
     float: right;
+    font-size: 1.5vmin;
 }
 
 .navlist {
@@ -71,11 +72,12 @@ header {
 
 .heading {
     margin: 5.2083vw 7.813vw 5.2083vw;
+    font-size: 3vmin;
 }
 
 .paragraph {
     width: 55vw;
-    font-size: larger;
+    font-size: 2vmin;
     margin-right: 5.2083vw;
 }
 
