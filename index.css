@@ -389,75 +389,11 @@ header {
     cursor: zoom-out;
 }
 
-/* SCAMPER: WHOLE*/
-.scamperwhole{
+/* SCAMPER: WHOLE */
+.staticpics{
     display: block;
     width: 80vw;
-    cursor: zoom-in;
-    transition: 1s ease;
     margin: auto;
-}
-
-#scamperwhole[type=checkbox]{
-    display: none;
-}
-
-#scamperwhole[type=checkbox]:checked ~ label > .scamperwhole {
-    transform: scale(1.75);
-    cursor: zoom-out;
-}
-
-/* FISHBONE: WHOLE*/
-.fishbonewhole{
-    display: block;
-    width: 80vw;
-    cursor: zoom-in;
-    transition: 1s ease;
-    margin: auto;
-}
-
-#fishbonewhole[type=checkbox]{
-    display: none;
-}
-
-#fishbonewhole[type=checkbox]:checked ~ label > .fishbonewhole {
-    transform: scale(1.75);
-    cursor: zoom-out;
-}
-
-/* FISHBONE: WHOLE*/
-.wireframeuser{
-    display: block;
-    width: 80vw;
-    cursor: zoom-in;
-    transition: 1s ease;
-    margin: auto;
-}
-
-#wireframeuser[type=checkbox]{
-    display: none;
-}
-
-#wireframeuser[type=checkbox]:checked ~ label > .wireframeuser {
-    transform: scale(1.75);
-    cursor: zoom-out;
-}
-
-.wireframeowner{
-    display: block;
-    width: 80vw;
-    cursor: zoom-in;
-    transition: 1s ease;
-    margin: auto;
-}
-
-#wireframeowner[type=checkbox]{
-    display: none;
-}
-
-#wireframeowner[type=checkbox]:checked ~ label > .wireframeowner {
-    transform: scale(1.75);
-    cursor: zoom-out;
 }
 
 .list_pics{
